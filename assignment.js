@@ -17,14 +17,14 @@ function kilometerToMeter(kilometer) {
 //Budget Calculator
 function budgetCalculator(watch, phone, laptop){
     if((watch >= 0) && (phone >= 0) && (laptop >= 0)){ 
-        totalCost = watch*50 + phone*100 + laptop*500;
+        totalBudget = watch*50 + phone*100 + laptop*500;
        
     }
     //for negative input
     else{
-        totalCost = "Error: Input value can not be negative"
+        totalBudget = "Error: Input value can not be negative"
     }
-    return totalCost;
+    return totalBudget;
 }
 //console.log(budgetCalculator(-1, 0, 4));
 
